@@ -6,12 +6,18 @@ manifest:
     - name: englmaxi
       url-base: https://github.com/englmaxi
     # nice_oled - nice_epaper - dongle_display!view - oled Adapter
+    - name: SamIAm2000
+      url-base: https://github.com/SamIAm2000
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
+      import: app/west.yml
+    - name: zmk
+      remote: SamIAm2000
+      revision: bongo-cat-dedicated-work-queue
       import: app/west.yml
     # dongle_display
     - name: zmk-dongle-display
