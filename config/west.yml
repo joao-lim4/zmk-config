@@ -13,7 +13,7 @@ manifest:
       remote: SamIAm2000
       revision: bongo-cat-dedicated-work-queue
       import: app/west.yml
-   - name: zmk
+    - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
