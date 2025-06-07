@@ -8,10 +8,6 @@
       url-base: https://github.com/mctechnology17
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
-    - name: zmk
       remote: SamIAm2000
       revision: bongo-cat-dedicated-work-queue
       import: app/west.yml
