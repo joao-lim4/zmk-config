@@ -13,11 +13,6 @@ manifest:
       remote: SamIAm2000
       revision: bongo-cat-dedicated-work-queue
       import: app/west.yml
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
-    # support nice_oled and nice_epaper
     - name: zmk-nice-oled
       remote: mctechnology17
       revision: main
