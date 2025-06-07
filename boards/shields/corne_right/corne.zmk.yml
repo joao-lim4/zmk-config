@@ -12,3 +12,5 @@ features:
   - studio
 siblings:
   - corne_right
+  - corne_dongle_xiao
+  - corne_dongle_pro_micro
