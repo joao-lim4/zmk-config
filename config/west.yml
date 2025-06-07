@@ -1,11 +1,7 @@
-manifest:
+  manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    # dongle_display
-    - name: englmaxi
-      url-base: https://github.com/englmaxi
-    # nice_oled - nice_epaper - dongle_display!view - oled Adapter
     - name: SamIAm2000
       url-base: https://github.com/SamIAm2000
     - name: mctechnology17
