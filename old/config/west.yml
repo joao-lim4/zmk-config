@@ -1,0 +1,21 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: SamIAm2000
+      url-base: https://github.com/SamIAm2000
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
+  projects:
+    - name: zmk
+      remote: SamIAm2000
+      revision: bongo-cat-dedicated-work-queue
+      import: app/west.yml
+    - name: zmk-nice-oled
+      remote: mctechnology17
+      revision: main
+    - name: zmk-oled-adapter
+      remote: mctechnology17
+      revision: main
+  self:
+    path: config
