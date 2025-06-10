@@ -1,4 +1,4 @@
-manifest:Add commentMore actions
+manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
